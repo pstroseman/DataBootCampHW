@@ -1,0 +1,43 @@
+h1 {
+    color: white;
+    text-shadow: 1px 1px 2px rgb(243, 247, 32), 0 0 25px green, 0 0 5px rgb(134, 233, 240);
+}
+body {
+    background-color: rgb(185, 191, 194);
+ }
+.jumbotron {
+    background-image: url("alien.jpg");
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    padding:25px;
+    text-align: center;
+ }
+
+.sigline{
+    color: rgb(13, 14, 13);
+    text-align: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    padding-right: 30pt;
+}
+
+.form-control{
+    color: white;
+    background-color: darkgreen;
+}
+
+.form-control:hover{
+    color: black;
+    background-color: white;
+}
+
+#reset{
+    color:red;
+}
+
+.info{
+    color: rgb(15, 14, 14);
+    font-family: Courier New, Courier, monospace;
+    font-weight: bold;
+}
