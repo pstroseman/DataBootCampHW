@@ -1,0 +1,31 @@
+html, body {
+            font-family: "Arial", sans-serif;
+        }
+        
+        .bar {
+            fill: #5f89ad;
+        }
+        
+        .axis {
+            font-size: 17px;
+        }
+        
+        .axis path,
+        .axis line {
+            fill: none;
+            display: none;
+        }
+        
+        .label {
+            font-size: 13px;
+        }
+.toolTip {
+    position: absolute;
+    display: none;
+    min-width: 80px;
+    height: auto;
+    background: none repeat scroll 0 0 #f0E68C;
+    border: 1px solid #000000;
+    padding: 14px;
+    text-align: center;
+}
